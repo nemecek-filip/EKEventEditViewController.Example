@@ -1,6 +1,6 @@
 # EKEventEditViewController.Example
 
-![](Images/header.png)
+![](images/header.png)
 
 ## Simple example how to use `EKEventEditViewController`
 
