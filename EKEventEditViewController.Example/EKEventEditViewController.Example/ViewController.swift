@@ -55,5 +55,10 @@ class ViewController: UIViewController, EKEventEditViewDelegate, UINavigationCon
     func eventEditViewController(_ controller: EKEventEditViewController, didCompleteWith action: EKEventEditViewAction) {
             dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func githubButtonTapped(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://github.com/nemecek-filip")!, options: [:], completionHandler: nil)
+    }
+    
 }
 
